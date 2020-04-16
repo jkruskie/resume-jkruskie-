@@ -19,7 +19,7 @@ git add -A
 git commit -m $message
 
 # Push to the GitHub repository.
-git push -f https://github.com/jkruskie/resume-jkruskie.git gh-pages
+git push -f https://github.com/jkruskie/resume-jkruskie.git origin/gh-pages
 
 # Go back to the starting directory.
 cd ..
