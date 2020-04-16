@@ -148,10 +148,17 @@ export default {
       {
         icon  : 'mdi-medal',
         text  : 'Top 10 for A.H. Nickless Innovation Award Nicholas in 2019',
-        source: '(https://ahninnovationaward.com/)',
+        source: '(https://ahninnovationaward.com)',
       },
     ],
     experiences: [
+      {
+        from       : 'September, 2019',
+        to         : 'Current',
+        employer   : 'NetSource One, Inc.',
+        title      : 'Programmer I',
+        description: 'Primary responsibilities include the creation of monitoring and scripts to create automation within a wide variety of systems. Regular use of Powershell, Python, ConnectWise Automate.',
+      },
       {
         from       : 'July, 2016',
         to         : 'August, 2019',
