@@ -4,7 +4,7 @@
     light
   >
     <v-card-text class="text-xs-center">
-      <h4>OK ... OK ... My CV has just ended here but not my journey!</h4>
+      <h4>OK ... OK ... My resume has just ended here but not my journey!</h4>
       <div>Don't believe me? keep scrolling!</div>
       <content-section>
         <v-timeline>
