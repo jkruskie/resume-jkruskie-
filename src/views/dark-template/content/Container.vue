@@ -141,6 +141,11 @@ export default {
   data      : () => ({
     prouds: [
       {
+        icon  : 'mdi-application',
+        text  : 'WeServe Mobile App Developer',
+        source: "Developer for Saginaw Valley State University's WeServe volunteer application",
+      },
+      {
         icon  : 'mdi-trophy',
         text  : '2nd, 6th, & 8th in Nation for Business Professionals of America in 2018-19',
         source: '(Web Application Team, Software Engineering Team, & Mobile Application Development)',
@@ -153,11 +158,18 @@ export default {
     ],
     experiences: [
       {
+        from       : 'February, 2022',
+        to         : 'Current',
+        employer   : 'The Valley Vanguard',
+        title      : 'Photographer',
+        description: 'Primary responsibilities include photographing all campus sporting events as well as general assignments, captioning and sorting photographs, and generate ideas for news and featured content.',
+      },
+      {
         from       : 'August, 2020',
         to         : 'Current',
         employer   : 'McNally-Nimergood Crane Rentals',
         title      : 'Yard Worker',
-        description: 'Primary responsibilities include loading and offloading construction equipment, light maintenance work on machines, and building maintenance.  ',
+        description: 'Primary responsibilities include loading and offloading construction equipment, light maintenance work on machines, and building maintenance.',
       },
       {
         from       : 'September, 2019',
@@ -184,7 +196,7 @@ export default {
     educations: [
       {
         from       : '2019',
-        to         : '2023 (not finished yet)',
+        to         : '2024 (not finished yet)',
         title      : 'Bachelor\'s degree, Computer Science',
         location   : 'Saginaw Valley State University',
         description: 'Study Computer Science and Software Development',
@@ -233,11 +245,16 @@ export default {
       {
         title: 'Python',
         icon : 'mdi-language-python',
-        value: 60,
+        value: 50,
       },
       {
         title: 'Powershell',
         icon : 'mdi-powershell',
+        value: 60,
+      },
+      {
+        title: 'React Native',
+        icon : 'mdi-react',
         value: 60,
       },
       { divider: true },
@@ -249,7 +266,7 @@ export default {
       {
         title: 'Windows Server',
         icon : 'mdi-ubuntu',
-        value: 65,
+        value: 70,
       },
       {
         title: 'Web Application Security',
@@ -259,12 +276,12 @@ export default {
       {
         title: 'Git',
         icon : 'mdi-git',
-        value: 67,
+        value: 65,
       },
       {
         title: 'Web Applications',
         icon : 'mdi-application',
-        value: 67,
+        value: 85,
       },
     ],
   }),

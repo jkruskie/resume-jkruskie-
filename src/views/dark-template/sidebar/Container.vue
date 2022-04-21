@@ -87,11 +87,6 @@ export default {
               text: 'jkruskie.com',
             },
             {
-              name: 'Birth Date',
-              icon: 'mdi-cake-variant',
-              text: 'Aug 20, 2000',
-            },
-            {
               name: 'Location',
               icon: 'mdi-map-marker',
               text: 'Bay City, MI',
@@ -119,7 +114,22 @@ export default {
             {
               icon: 'mdi-instagram',
               text: 'instagram.com/justinkruskie',
-              link: 'https://www.instagram.com/justinkruskie/',
+              link: 'https://www.instagram.com/justinkruskie',
+            },
+            {
+              icon: ' ',
+              text: ' ',
+              link: ' ',
+            },
+            {
+              icon: 'mdi-camera-iris',
+              text: 'facebook.com/justinkruskiephotography',
+              link: 'https://www.facebook.com/justinkruskiephotography',
+            },
+            {
+              icon: 'mdi-camera',
+              text: 'instagram.com/justinkruskiephoto',
+              link: 'https://www.instagram.com/justinkruskiephoto',
             },
           ],
         },
@@ -141,11 +151,7 @@ export default {
             },
             {
               icon: 'mdi-auto-fix',
-              text: 'Hacking Stuffs',
-            },
-            {
-              icon: 'mdi-teach',
-              text: 'Teaching',
+              text: 'Hacking Stuff',
             },
             {
               icon: 'mdi-swim',
@@ -160,8 +166,8 @@ export default {
               text: 'Sleep',
             },
             {
-              icon: 'mdi-camera',
-              text: 'Photography',
+              icon: 'mdi-run-fast',
+              text: 'Sports Photography',
             },
           ],
         },
@@ -176,7 +182,7 @@ export default {
             },
             {
               name    : 'John Bublitz',
-              position: 'Network Tech, E-HPS',
+              position: 'Network Tech, Essexville-Hampton Public Schools',
               email   : 'bublitzj@e-hps.net',
               phone   : '(989) 450-8859',
             },
