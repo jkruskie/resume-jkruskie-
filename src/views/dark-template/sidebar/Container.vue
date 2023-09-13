@@ -17,7 +17,7 @@
       <sidebar-section :options="sections.info" />
       <sidebar-section :options="sections.socials" />
       <sidebar-section :options="sections.hobbies">
-        <template v-slot:item="{item}">
+        <template v-slot:item="{ item }">
           <v-chip>
             <v-avatar>
               <v-icon>
@@ -29,15 +29,13 @@
         </template>
       </sidebar-section>
       <sidebar-section :options="sections.references">
-        <template v-slot:items="{items}">
+        <template v-slot:items="{ items }">
           <v-container pa-0>
             <v-layout
               wrap
               class="text-xs-center"
             >
-              <template
-                v-for="(item, i) in items"
-              >
+              <template v-for="(item, i) in items">
                 <v-flex
                   :key="i"
                   md6
@@ -79,7 +77,7 @@ export default {
             {
               name: 'Email',
               icon: 'mdi-email',
-              text: 'justin@jkruskie.com',
+              text: 'justin@kruskie.net',
             },
             {
               name: 'Website',
@@ -112,19 +110,9 @@ export default {
               link: 'https://www.facebook.com/jkruskie',
             },
             {
-              icon: 'mdi-instagram',
-              text: 'instagram.com/justinkruskie',
-              link: 'https://www.instagram.com/justinkruskie',
-            },
-            {
-              icon: ' ',
-              text: ' ',
-              link: ' ',
-            },
-            {
               icon: 'mdi-camera-iris',
               text: 'facebook.com/justinkruskiephotography',
-              link: 'https://www.facebook.com/justinkruskiephotography',
+              link: 'https://www.facebook.com/justinkruskiephoto',
             },
             {
               icon: 'mdi-camera',
@@ -136,38 +124,45 @@ export default {
         hobbies: {
           title: 'HOBBIES',
           items: [
-
+            {
+              icon: 'mdi-code-tags',
+              text: 'Expertise in .NET Development',
+            },
+            {
+              icon: 'mdi-cloud',
+              text: 'Proficient in Azure Cloud Services',
+            },
             {
               icon: 'mdi-bullseye',
-              text: 'Getting out of Safe Zone',
+              text: 'Problem-Solving Skills',
             },
             {
               icon: 'mdi-biohazard',
-              text: 'Challenges',
+              text: 'Technical Challenges Enthusiast',
             },
             {
               icon: 'mdi-image-filter-hdr',
-              text: 'Nature',
+              text: 'Appreciation for Nature',
             },
             {
               icon: 'mdi-auto-fix',
-              text: 'Hacking Stuff',
+              text: 'Tech Enthusiast and Hacker',
             },
             {
               icon: 'mdi-swim',
-              text: 'Swimming',
+              text: 'Swimming as a Fitness Pursuit',
             },
             {
               icon: 'mdi-music',
-              text: 'Music',
+              text: 'Passion for Music',
             },
             {
               icon: 'mdi-sleep',
-              text: 'Sleep',
+              text: 'Emphasis on Quality Rest',
             },
             {
-              icon: 'mdi-run-fast',
-              text: 'Sports Photography',
+              icon: 'mdi-camera',
+              text: 'Devoted Sports Photographer',
             },
           ],
         },
@@ -176,15 +171,15 @@ export default {
           items: [
             {
               name    : 'Jesse Dockett',
-              position: 'Co-Owner, Digital Fox',
+              position: 'Bay City Commissioner',
               email   : 'jdockett@gmail.com',
               phone   : '(989) 493-0656',
             },
             {
-              name    : 'John Bublitz',
-              position: 'Network Tech, Essexville-Hampton Public Schools',
-              email   : 'bublitzj@e-hps.net',
-              phone   : '(989) 450-8859',
+              name    : 'George Corser',
+              position: 'CS Professor, SVSU',
+              email   : 'gpcorser@svsu.edu',
+              phone   : '(989) 964-2756',
             },
           ],
         },
@@ -195,7 +190,7 @@ export default {
 </script>
 
 <style scoped>
-.sidebar{
-    background: #2e2e2e;
+.sidebar {
+  background: #2e2e2e;
 }
 </style>
